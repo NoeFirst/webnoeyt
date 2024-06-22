@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fdfd01; /* Jaune */
+  color: #fff;
+  padding: 20px;
+  text-align: center; /* Centrer le contenu */
+  position: relative; /* Position relative pour positionner les boutons */
+}
+
+header h1 {
+    margin: 0;
+    background-color: #fdfd01; /* Jaune */
+    padding: 10px 20px; /* Ajout de padding pour les boutons */
+  display: inline-block; /* Permet d'ajuster la largeur automatiquement */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Ajout de margin: 0; pour enlever le margin par défaut */
+    position: absolute; /* Position absolue pour placer les boutons */
+    top: 20px; /* Distance du haut */
+    right: 20px; /* Distance de la droite */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px; /* Réduit la marge entre les boutons */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px; /* Ajuste la taille des boutons */
+    border: 1px solid #fff; /* Ajoute une bordure aux boutons */
+    border-radius: 5px; /* Arrondit les coins des boutons */
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Change la couleur au survol */
+}
+
+section.main-content {
+    padding: 20px;
+}
+
+footer {
+    background-color: #fdfd01; /* Jaune */
+    color: #fff;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
